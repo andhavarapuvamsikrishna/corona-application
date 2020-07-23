@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Cards.module.css";
 import { Card, CardContent, Typography, Grid } from "@material-ui/core";
 import Countup from "react-countup";
+import cx from "classnames"
 const Cards = (props) => {
   if (!props.data.confirmed) {
     return "loading";
@@ -9,10 +10,10 @@ const Cards = (props) => {
 
   return (
     <div className={styles.container}>
-      <Grid container spacing={3} justify="center">
-        <Grid item component={Card}>
+      <Grid container spacing={3} justify="center" >
+        <Grid item component={Card} xs={12} md={3} className={cx(styles.Card,styles.infected)}>
           <CardContent>
-            <Typography color="textSecondary">infected</Typography>
+            <Typography color="textSecondary">Infected</Typography>
             <Countup
               start={0}
               end={props.data.confirmed.value}
@@ -27,7 +28,7 @@ const Cards = (props) => {
             </Typography>
           </CardContent>
         </Grid>
-        <Grid item component={Card}>
+        <Grid item component={Card} xs={12} md={3} className={cx(styles.Card,styles.recovered)}>
           <CardContent>
             <Typography color="textSecondary">Recovered</Typography>
             <Countup
@@ -44,7 +45,7 @@ const Cards = (props) => {
             </Typography>
           </CardContent>
         </Grid>
-        <Grid item component={Card}>
+        <Grid item component={Card} xs={12} md={3} className={cx(styles.Card,styles.deaths)}>
           <CardContent>
             <Typography color="textSecondary">Deaths</Typography>
             <Countup

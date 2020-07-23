@@ -1,9 +1,24 @@
 body{
-    background-color: rgb(250,250,250);
+    background-color: #000000;
+background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+
 }
 .container{
     display:flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    
 } 
-
+.image{
+    width: 370px;
+    margin-top: 0px;
+}
+@media only screen and (max-width:770px) {
+    .container{
+        margin:0 10%
+    }
+    .image{
+        width: 100%;
+    }
+}
