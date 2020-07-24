@@ -54,6 +54,7 @@ const Cards = (props) => {
               duration={2}
               separator=","
             />
+           
             <Typography color="textSecondary">
               {new Date(props.data.lastUpdate).toDateString()}
             </Typography>

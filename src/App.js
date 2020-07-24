@@ -15,7 +15,7 @@ class App extends Component{
   }
   async componentDidMount(){
     const fetchedData=await fetchData()
-    //console.log(fetchedData)
+    console.log(fetchedData)
     this.setState({data:fetchedData})
     
   }
@@ -39,11 +39,11 @@ class App extends Component{
         <address className={styles.myinfo}>
          Created by <a href="mailto:andhavarapuvamsikrishna.com">vamsikrishna</a>.<br />
          Visit us at:<br />
-         andhavarapuvamsikrishna@gmail.com<br />
+         andhavarapuvamsikri<br />shna@gmail.com<br />
          cheepurupalli, vizianagarm<br />
-         Andhrapradesh,India
+         Andhrapradesh,India<br />
+         (ph)-9492589397
          </address>
-       
       </div>
     )
   }
