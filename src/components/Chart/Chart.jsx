@@ -14,7 +14,7 @@ const Chart=({data,country}) => {
        
         fetchAPI()
     },[]);
-
+   
     const lineChart =(
         dailyData.length
         ?(<Line 
@@ -50,7 +50,8 @@ const Chart=({data,country}) => {
                 }}
                 options={{
                     legend:{display:false},
-                    title:{display:true,text:`current state in ${country}`}
+                    title:{display:true,text:`current state in ${country}`},
+                    
                 }}
             />
         ): null

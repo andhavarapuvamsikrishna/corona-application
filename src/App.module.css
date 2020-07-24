@@ -1,7 +1,7 @@
 body{
-    background-color: #000000;
-background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
-
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    color:white;
 }
 .container{
     display:flex;
@@ -11,8 +11,16 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
     
 } 
 .image{
-    width: 370px;
+    width:400px;
     margin-top: 0px;
+}
+.myinfo{
+    margin-left: 70%;
+    text-align: left;
+    color: lightgray;
+}
+a{
+    color:rgb(55, 221, 130);
 }
 @media only screen and (max-width:770px) {
     .container{

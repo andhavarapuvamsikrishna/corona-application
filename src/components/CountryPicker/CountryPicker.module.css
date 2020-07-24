@@ -2,3 +2,34 @@
     width: 30%;
     margin-bottom : 30px !important
 }
+.mySelect{
+    width: 30%;
+    margin-bottom: 30px;
+    height: 34px;
+    background:lightblue;
+    color: black;
+}
+.mySelected{
+    color: whitesmoke;
+    background:black
+    
+}
+/*select {
+    margin: 50px;
+    width: 150px;
+    padding: 5px 35px 5px 5px;
+    font-size: 16px;
+    border: 1px solid #CCC;
+    height: 34px;
+    linear-gradient(to bottom, #000099 0%, #0033cc 100%);
+    -moz-appearance: none;
+    appearance: none;
+    background: url(http://www.stackoverflow.com/favicon.ico) 96% / 15% no-repeat #EEE;
+  }
+  
+  
+  /* CAUTION: Internet Explorer hackery ahead */
+  
+  
+  
+  

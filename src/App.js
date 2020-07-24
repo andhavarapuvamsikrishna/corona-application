@@ -35,7 +35,14 @@ class App extends Component{
         <Cards data={data}/>
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country}/>
-        
+        <br />
+        <address className={styles.myinfo}>
+         Created by <a href="mailto:andhavarapuvamsikrishna.com">vamsikrishna</a>.<br />
+         Visit us at:<br />
+         andhavarapuvamsikrishna@gmail.com<br />
+         cheepurupalli, vizianagarm<br />
+         Andhrapradesh,India
+         </address>
        
       </div>
     )
