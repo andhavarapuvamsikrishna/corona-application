@@ -33,6 +33,9 @@ const Chart=({data,country}) => {
                 fill:true,
             },],
         }}
+        options={{
+            maintainAspectRatio:false
+        }}
         
         />):null
     )

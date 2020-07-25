@@ -10,6 +10,7 @@ body{
     flex-direction: column;
     
 } 
+
 .image{
     width:400px;
     margin-top: 0px;
@@ -19,6 +20,7 @@ body{
     text-align: left;
     color: lightgray;
 }
+
 a{
     color:rgb(55, 221, 130);
 }

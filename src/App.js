@@ -34,8 +34,11 @@ class App extends Component{
         <img className={styles.image} src={coronaImage} alt="covid-19"/>
         <Cards data={data}/>
         <CountryPicker handleCountryChange={this.handleCountryChange} />
+        
         <Chart data={data} country={country}/>
+       
         <br />
+       
         <address className={styles.myinfo}>
          Created by <a href="mailto:andhavarapuvamsikrishna.com">vamsikrishna</a>.<br />
          Visit us at:<br />
